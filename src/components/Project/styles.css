@@ -1,0 +1,22 @@
+.Project {
+  background-color: #6D6A75;
+  padding: 2em;
+  margin: 20px auto;
+  height: 350px;
+  width: 350px;
+}
+
+.Project p {
+  width: 80%;
+}
+
+.Project h3 {
+  text-align: center;
+  font-size: 2em;
+  color: #DE9E36;
+}
+
+
+.front {
+  background-image: url(../../Swapi-bw.png); 
+}

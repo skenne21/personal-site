@@ -1,0 +1,35 @@
+.Skills {
+  background-color: #EDEEEF;
+}
+
+.FE-skills,
+.BE-skills {
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+  padding-bottom: 1em;
+}
+
+.Skills li {
+  color: #232028;
+  font-size: 1.1em;
+  margin: 5px auto;
+  width: 50%;
+  display: block;
+}
+
+.Skills h3 {
+  color: #DEB841;
+  text-align: center;
+  width: 40%;
+  margin: 2em auto;
+  border-bottom: 2px solid;
+}
+
+.Skills h2 {
+  color: #DE9E36;
+  letter-spacing: 5px;
+  padding-top: 0.5em;
+  display: block;
+}
+

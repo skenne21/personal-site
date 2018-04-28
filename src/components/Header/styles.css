@@ -1,0 +1,32 @@
+header {
+  height: 600px;
+  background: linear-gradient(
+                    rgba(212, 212, 212, 0.2),
+                    rgba(194, 192, 192, 0.5)),
+                    url('../../hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  width: 80%;
+  border-bottom: 2px solid #232028;
+  font-weight: bold;
+  font-size: 6em;
+  font-family: 'Noto Serif', serif;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  padding-top: 2em;
+  color: #232028;
+}
+
+
+h2 {
+  color: #232028;
+  font-size: 3em;
+  font-family: 'Noto Serif', serif;
+  letter-spacing: 2px;
+  margin: 0;
+  padding-top: 0.3em;
+}
