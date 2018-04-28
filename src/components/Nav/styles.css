@@ -1,0 +1,10 @@
+ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+li {
+  text-align: left;
+  display: inline-block;
+  margin: 7px 12px;
+}

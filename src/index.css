@@ -1,3 +1,16 @@
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 2px;
+}
+
+
+
 body {
   margin: 0;
   padding: 0;
