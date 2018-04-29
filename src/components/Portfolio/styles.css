@@ -1,17 +1,14 @@
 .container {
-  padding: 2em;
+  margin: auto;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: left;
 }
 
-.Portfolio h2 {
+/*.Portfolio h2 {
   padding-top: 1em;
-}
+}*/
 
-.front {
-  background-image: url();
-}
 
 .container p {
   width: 95%;
@@ -19,6 +16,3 @@
   text-align: left;
 }
 
-button {
-  width: 95%;
-}

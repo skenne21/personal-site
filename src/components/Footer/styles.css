@@ -1,0 +1,22 @@
+footer {
+  background-color: #232028;
+  height: 10em;
+  margin: 0;
+}
+
+footer ul {
+  font-size: 1em;
+  color: #DE9E36;
+  text-align: center;
+}
+
+footer h2 {
+  color: #DEB841;
+}
+
+footer a {
+  margin: 2em;
+  font-size: 1.3em;
+  color: #DE9E36;
+  text-decoration: none;
+}

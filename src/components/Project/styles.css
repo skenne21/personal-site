@@ -1,22 +1,58 @@
 .Project {
-  background-color: #6D6A75;
-  padding: 2em;
-  margin: 20px auto;
+  position: relative;
+  margin: 3.5em 3em;
   height: 350px;
   width: 350px;
+
 }
 
 .Project p {
-  width: 80%;
+  width: 90%;
 }
 
 .Project h3 {
   text-align: center;
-  font-size: 2em;
+  font-size: 3.3em;
   color: #DE9E36;
 }
 
+.Project button {
+  width: 90%;
+}
+
+.front, 
+.back {
+  padding: 1.6em;
+  height: 100%;
+  width: 100%;
+  transition: 1s ease;
+
+}
 
 .front {
-  background-image: url(../../Swapi-bw.png); 
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../assest/nsrdb-bw.png); 
 }
+
+
+.back {
+  background-color: #6D6A75;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.front:hover {
+  opacity: 0;
+}
+
+.front .title {
+  position: absolute;
+  top: 135px;
+  left: 85px;
+  font-size: 5em;
+}
+    

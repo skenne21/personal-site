@@ -1,0 +1,41 @@
+.WorkExperience {
+  margin: auto;
+  background-color: #EDEEEF;
+}
+
+/*.WorkExperience h2 {
+  ;
+}*/
+
+.job {
+  background-color: #fff;
+  padding: 1em;
+  margin: 2em auto;
+  width: 65%;
+}
+
+.job h3 {
+  position: relative;
+  margin: 25px auto;
+  width: 90%;
+  text-align: left;
+  color: #DE9E36
+}
+
+
+.job h4 {
+  margin: 5px auto;
+  width: 90%;
+  text-align: left;
+}
+
+.job p {
+  margin: 10px auto;
+  text-align: left;
+  width: 90%;
+}
+
+.date {
+  position: absolute;
+  right: 0;
+}
