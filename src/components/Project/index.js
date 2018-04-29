@@ -5,7 +5,7 @@ const Project = () => {
   return(
     <div className='Project'>
       <div className='front'>
-        <h3>Name</h3>
+        <h3 className='title'>Name</h3>
       </div>
       <div className='back'>
         <h3>Name</h3>

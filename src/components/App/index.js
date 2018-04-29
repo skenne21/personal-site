@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Header from '../Header';
 import NavBar from '../Nav';
-import About  from '../About';
-import Skills from '../Skills';
-import Portfolio from '../Portfolio';
+import Main from '../Main';
+import Footer from '../Footer';
 import './index.css';
 
 class App extends Component {
@@ -12,11 +11,8 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Header />
-        <main>
-          <About />
-          <Skills />
-          <Portfolio/>
-        </main>
+        <Main />
+        <Footer />
       </div>
     );
   }
