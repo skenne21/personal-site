@@ -3,7 +3,9 @@ ul {
   text-align: right;
 }
 
-li {
+.nav_link {
+  color: black;
+  text-decoration: none;
   text-align: left;
   display: inline-block;
   margin: 7px 12px;

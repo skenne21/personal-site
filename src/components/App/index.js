@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import Header from '../Header';
-import NavBar from '../Nav';
-import Main from '../Main';
-import Footer from '../Footer';
+import { Switch, Route } from 'react-router-dom';
+import Homepage from '../Homepage';
+import Resume from '../Resume';
+import About from '../About'
 import './index.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar />
-        <Header />
-        <Main />
-        <Footer />
+        <Switch>
+          <Route exact path='/' component={Homepage}/>
+          <Route path='/resume' component={Resume}/>
+          <Route path='/about' component={About}/>
+        </Switch>
       </div>
     );
   }

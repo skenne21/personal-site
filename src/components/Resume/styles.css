@@ -1,0 +1,75 @@
+.Resume section {
+  margin: auto;
+  width: 80%;
+  border-bottom: 2px solid #232028;
+}
+
+.Resume h3 {
+  font-size: 1.1em;
+  padding-bottom: 1em;
+}
+
+.pdf_button {
+  position: relative;
+  bottom: 150px;
+  width: 29%;
+}
+
+.skills-list {
+  margin: 2em auto;
+  width: 65%;
+  text-align: left;
+}
+
+.skills-headers {
+  margin: 20px 10px;
+  color: #DE9E36;
+  font-weight: bold;
+}
+
+.contact_info {
+  width: 65%;
+  margin: auto;
+  
+}
+
+#contact_section {
+  border-bottom: none;
+}
+
+.contact_info a {
+  text-decoration: none;
+  color:#DE9E36;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.contact_info li {
+  position: relative;
+  margin: 30px 20px;
+  width: 100%;
+  display: block;
+}
+
+.contact_info span {
+  color: #232028;
+  margin: 10px;
+  font-weight: normal;
+}
+
+.education {
+  width: 59%;
+  font-weight: normal;
+}
+
+.degree {
+  padding-bottom: 2em;
+  margin:  10px auto;
+  width: 59%;
+  text-align: left;
+  color:#DE9E36;
+}
+
+.main-header {
+  margin-bottom: 2em;
+}
