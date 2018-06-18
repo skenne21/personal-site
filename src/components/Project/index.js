@@ -1,17 +1,29 @@
 import React from 'react';
 import './styles.css';
 
-const Project = () => {
+const Project = ({ project }) => {
+ 
+  
+
+  const renderProjects = () => {
+    return(
+      <div>
+        <div className='front'>
+          <img src={ project.picture }/>
+          <h3 className='title'>{project.title}</h3>
+        </div>
+        <div className='back'>
+          <h3>{ project.title }</h3>
+          <p>{ project.decription }</p>
+          <button>SHOW MORE</button>
+        </div>
+      </div>
+    )
+  }
+
   return(
     <div className='Project'>
-      <div className='front'>
-        <h3 className='title'>Name</h3>
-      </div>
-      <div className='back'>
-        <h3>Name</h3>
-        <p> And cortado flavour, and whipped irish qui mazagran. Eu, robusta aroma, flavour siphon eu flavour redeye.</p>
-        <button>SHOW MORE</button>
-      </div>
+     { renderProjects()}
     </div>
   )
 }

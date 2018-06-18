@@ -4,13 +4,16 @@ import Skills from '../Skills';
 import Portfolio from '../Portfolio';
 import WorkExperience from '../WorkExperience';
 import Contact from '../Contact';
+import { projects }from '../../data/projects.js';
 
 const Main = () => {
   return(
     <main>
       <Intro />
       <Skills />
-      <Portfolio/>
+      <Portfolio
+        projects={ projects }
+      />
       <WorkExperience />
       <Contact />
     </main>

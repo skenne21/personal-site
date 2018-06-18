@@ -2,17 +2,23 @@ import React from 'react';
 import Project from '../Project';
 import './styles.css';
 
-const Portfolio = () => {
+const Portfolio = ({ projects }) => {
+  const createProjects = () => {
+    return projects.map(( project, index ) => {
+      return (
+        <Project 
+          key={ index } 
+          project={ project }
+        />
+      );
+    });
+  }
+
   return(
     <section className='Portfolio' id='Portfolio'>
       <h2>PORTFOLIO</h2>
       <div className='container'>
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
+       { createProjects() }
       </div>
     </section>
   )
