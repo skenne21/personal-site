@@ -10,11 +10,10 @@ const Main = () => {
   return(
     <main>
       <Intro />
-      <Skills />
       <Portfolio
         projects={ projects }
       />
-      <WorkExperience />
+      <Skills />
       <Contact />
     </main>
   )
