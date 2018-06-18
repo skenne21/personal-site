@@ -51,7 +51,7 @@ const WorkExperience = () => {
 
           Wings, robust, sweet chicory cortado macchiato whipped half and half. Whipped mocha carajillo, frappuccino cultivar est flavour to go sweet.</p>
       </article>
-      <button>View Resume</button>
+      <button>VIEW FULL RESUME</button>
     </section>
   )
 }

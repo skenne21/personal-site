@@ -1,5 +1,5 @@
 import React from 'react';
-import About  from '../About';
+import Intro  from '../Intro';
 import Skills from '../Skills';
 import Portfolio from '../Portfolio';
 import WorkExperience from '../WorkExperience';
@@ -8,7 +8,7 @@ import Contact from '../Contact';
 const Main = () => {
   return(
     <main>
-      <About />
+      <Intro />
       <Skills />
       <Portfolio/>
       <WorkExperience />
