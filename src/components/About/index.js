@@ -1,10 +1,13 @@
 import React from 'react';
 import Header from '../Header/';
+import Footer from '../Footer/';
+import Nav from '../Nav/';
 
 
 const About = () => {
   return(
     <div className='About'>
+      <Nav />
       <Header />
       <div>
         <h3>WHO AM I AS A PERSON?</h3>
@@ -28,6 +31,46 @@ const About = () => {
          lives.
          </p>
       </div>
+      <div className='picture-collage'>
+        <article className='pic-1'></article>
+        <article className='pic-2'></article>
+        <article className='pic-3'></article>
+        <article className='pic-4'></article>
+        <article className='pic-5'></article>
+        <article className='pic-6'></article>
+      </div>
+      <div>
+        <h3>What I have Done & What I can Do?</h3>
+        <p>Feel Free to take a deeper look at what I have done over the years!</p>
+        <button>VIEW MY RESUME</button>
+        <p>Take a look into some of the Projects I have done!</p>
+        <button> VIEW MY PORTFOLIO</button>
+      </div>
+      <div>
+        <h3>LETS TALK!</h3>
+        <ul className='contact_info'>
+          <li>
+            <a>
+            LOCATED:<span>Denver, CO</span>
+            </a>
+          </li>
+          <li>
+            <a href='mailto:skenne21@gmail.com' target="_blank">
+            SEND ME AN EMAIL:<span>skenne21@gamil.com</span>
+            </a>
+          </li>
+          <li>
+            <a href='https://www.linkedin.com/in/sabrina-kennedy/' target="_blank">
+              FIND ME ON LINKEDIN@<span>sabrina-kennedy</span></a>
+          </li>
+          <li>
+            <a href='https://github.com/skenne21' target="_blank">
+            FOLLOW ME ON GITHUB@<span>skenne21</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <Footer />
     </div>
   )
 }
