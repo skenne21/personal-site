@@ -3,7 +3,7 @@ import Project from '../Project';
 import { projects }from '../../data/projects.js';
 import './styles.css';
 
-const Portfolio = ({ projects }) => {
+const Portfolio = () => {
   const createProjects = () => {
     return projects.map(( project, index ) => {
       return (
