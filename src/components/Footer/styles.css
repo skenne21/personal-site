@@ -10,6 +10,10 @@ footer ul {
   text-align: center;
 }
 
+footer li {
+  display: inline-block;
+}
+
 footer h2 {
   color: #DEB841;
 }

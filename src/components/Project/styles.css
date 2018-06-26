@@ -1,7 +1,7 @@
 .Project {
   position: relative;
   margin: 3.5em 3em;
-  height: 350px;
+  height: 420px;
   width: 350px;
 
 }
@@ -12,8 +12,14 @@
 
 .Project h3 {
   text-align: center;
-  font-size: 1.3em;
   color: #DE9E36;
+}
+
+.projectHeadline {
+  font-size: 2em;
+  margin: 0 auto;
+  padding-bottom: 0;
+  width: 90%;
 }
 
 .Project button {
@@ -29,16 +35,29 @@
 
 }
 
+.Project img  {
+  width: 400px;
+  height: 425px;
+  vertical-align: top;
+  z-index: 2;
+}
+
 .front {
   z-index: 1;
-  /*background-size: cover;
-  background-repeat: no-repeat;*/
-  /*background-image: url(../../assest/nsrdb-bw.png); */
 }
 
 .front img {
-  width: 100%;
-  height: 100%;
+  padding: 0;
+  margin: 0;
+  width: 350px;
+  height: 425px;
+
+}
+
+.back p {
+  width: 80%;
+  padding-top: 1em;
+  min-height: 200px;
 }
 
 
@@ -56,8 +75,28 @@
 
 .front .title {
   position: absolute;
-  top: 135px;
+  top: 105px;
   left: 85px;
+  font-size: 3em;
+  width: 80%;
+}
+
+.project_button {
+  background-color: black;
   font-size: 1em;
+  padding-top: 3em;
+  color: white;
+  text-decoration: none;
+  background-color: none;
+  font-size: 1.3em;
+  padding: 0.3em;
+  width: 20%;
+  height: 30px;
+  border: 2px solid black;
+}
+
+.project_button:hover {
+  color: #fff;
+  background-color: black;
 }
     
