@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Header/';
 import Footer from '../Footer/';
 import Nav from '../Nav/';
+import './styles.css';
 
 
 const About = () => {
@@ -9,7 +10,7 @@ const About = () => {
     <div className='About'>
       <Nav />
       <Header />
-      <div>
+      <section className='whoAmI'>
         <h3>WHO AM I AS A PERSON?</h3>
         <p>As a Colorado Native, I love spending my free time in the mountains
          no matter the activity or the type of shoes I have on my feet. I also love
@@ -30,23 +31,23 @@ const About = () => {
          and innovate code that makes a meaningful impact on community and individuals
          lives.
          </p>
-      </div>
-      <div className='picture-collage'>
+      </section>
+      <section className='picture-collage'>
         <article className='pic-1'></article>
         <article className='pic-2'></article>
         <article className='pic-3'></article>
         <article className='pic-4'></article>
         <article className='pic-5'></article>
         <article className='pic-6'></article>
-      </div>
-      <div>
+      </section>
+      <section className='whatHaveIDone'>
         <h3>What I have Done & What I can Do?</h3>
         <p>Feel Free to take a deeper look at what I have done over the years!</p>
         <button>VIEW MY RESUME</button>
         <p>Take a look into some of the Projects I have done!</p>
         <button> VIEW MY PORTFOLIO</button>
-      </div>
-      <div>
+      </section>
+      <section className='contact'>
         <h3>LETS TALK!</h3>
         <ul className='contact_info'>
           <li>
@@ -69,7 +70,7 @@ const About = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </section>
       <Footer />
     </div>
   )
