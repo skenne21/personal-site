@@ -3,6 +3,13 @@ import Header from '../Header/';
 import Footer from '../Footer/';
 import Nav from '../Nav/';
 import './styles.css';
+import { Link } from 'react-router-dom';
+import image1 from '../../assest/moutian.jpg';
+import image2 from '../../assest/tree.JPG';
+import image3 from '../../assest/snowMout.JPG';
+import image4 from '../../assest/fall.jpg';
+import image5 from '../../assest/utah.jpeg';
+import image6 from '../../assest/snowmout2.JPG';
 
 
 const About = () => {
@@ -33,19 +40,29 @@ const About = () => {
          </p>
       </section>
       <section className='picture-collage'>
-        <article className='pic-1'></article>
-        <article className='pic-2'></article>
-        <article className='pic-3'></article>
-        <article className='pic-4'></article>
-        <article className='pic-5'></article>
-        <article className='pic-6'></article>
+        <section className='main__collage' >
+          <img className='main__collage__image main-image1' src={ image1 } />
+          <img className='main__collage__image main-image2' src={ image2 } />
+          <img className='main__collage__image main-image3' src={ image3 } />
+          <img className='main__collage__image main-image4' src={ image4 } />
+          <img className='main__collage__image main-image5' src={ image5 } />
+          <img className='main__collage__image main-image6' src={ image6 } />
+        </section>
       </section>
       <section className='whatHaveIDone'>
         <h3>What I have Done & What I can Do?</h3>
         <p>Feel Free to take a deeper look at what I have done over the years!</p>
-        <button>VIEW MY RESUME</button>
+        <Link
+        className="about_me_button"
+        to="/resume"
+        >VIEW MY RESUME
+        </Link>
         <p>Take a look into some of the Projects I have done!</p>
-        <button> VIEW MY PORTFOLIO</button>
+        <Link
+        className="about_me_button"
+        to="/portfolio"
+        >VIEW MY PORTFOLIO
+        </Link>
       </section>
       <section className='contact'>
         <h3>LETS TALK!</h3>
