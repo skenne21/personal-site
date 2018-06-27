@@ -5,10 +5,11 @@ import Main from '../Main';
 import Footer from '../Footer';
 import './styles.css';
 
-const Homepage = () => {
+const Homepage = (props) => {
+  console.log(props)
   return(
     <div className='Homepage'>
-      <NavBar />
+      <NavBar history={props.history}/>
       <Header />
       <Main />
       <Footer />

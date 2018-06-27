@@ -12,10 +12,11 @@ import image5 from '../../assest/utah.jpeg';
 import image6 from '../../assest/snowmout2.JPG';
 
 
-const About = () => {
+const About = (props) => {
+  const { history } = props
   return(
     <div className='About'>
-      <Nav />
+      <Nav history={ history }/>
       <Header />
       <section className='whoAmI'>
         <h3>WHO AM I AS A PERSON?</h3>

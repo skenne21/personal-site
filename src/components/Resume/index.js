@@ -4,10 +4,12 @@ import NavBar from '../Nav';
 import Footer from '../Footer';
 import './styles.css';
 
-const Resume = () => {
+const Resume = (props) => {
+  const { history } = props;
+
   return(
     <div className='Resume'>
-      <NavBar />
+      <NavBar history={ history } />
       <Header />
       <button className='pdf_button'>VIEW PDF FORMAT</button>
       <section>
