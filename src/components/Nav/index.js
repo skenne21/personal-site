@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './styles.css';
 
 const NavBar = () => {
+  
   return(
     <div className='NavBar'>
       <ul>
