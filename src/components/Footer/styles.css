@@ -28,3 +28,20 @@ footer a {
 footer a:hover {
   color: #DEB841;
 }
+
+@media screen and (max-width: 660px) {
+  footer h2 {
+    text-align: center;
+  }
+
+  footer a {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  footer a {
+    margin: 1em auto;
+    font-size: 1em;
+  }
+}

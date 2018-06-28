@@ -13,9 +13,8 @@ const Project = ({ project }) => {
   
 
   const renderProjects = () => {
-    console.log(project.picture)
     return(
-      <div>
+      <div className='project'>
         <div className='front'>
           <img src={project.picture}/>
           <h3 className='title'>{project.title}</h3>
@@ -23,7 +22,7 @@ const Project = ({ project }) => {
         <div className='back'>
           <h3 className='projectHeadline'>{ project.title }</h3>
           <p>{ project.decription }</p>
-          <button className='project_button'>SHOW MORE</button>
+          <a href={project.link} className='link' id="link">SHOW MORE</a>
         </div>
       </div>
     )

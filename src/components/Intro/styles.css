@@ -26,3 +26,21 @@ h3 {
   background-color: black;
 
 }
+
+@media screen and (max-width: 950px) {
+  h3 {
+    margin: 1em auto;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  h3 {
+    width: 95%;
+    font-size: 1em;
+    margin: 1.3em auto;
+  }
+}
+
+
+

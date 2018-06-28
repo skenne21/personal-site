@@ -28,7 +28,7 @@ const ProjectsSections = ({ projectDetails }) => {
   }
  
   return (
-    <div className='projectDetails'>
+    <div className='projectDetails' id={projectDetails.name}>
       <div className='part1'>
         <h2>{ projectDetails.title }</h2>
         <h4>{ projectDetails.headline }</h4>
