@@ -3,7 +3,29 @@ import './styles.css';
 
 
 const ProjectsSections = ({ projectDetails }) => {
-  console.log(projectDetails)
+  let target;
+
+  if (projectDetails.title === 'NSRDB REDESIGN') {
+    target = true;
+  }
+
+  const linkTags = () => {
+    return (
+      <div>
+        <a className='links' target="_blank" href={projectDetails.url}>LIVE SITE</a>
+        <a className='links' target="_blank" href={projectDetails.repo.repo1}>SEE THE CODE</a>
+      </div>
+    )
+  }
+
+  const nsrdbTags = () => {
+    return (
+      <div>
+        <a className='links' target="_blank" href={projectDetails.repo.repo1}>SEE CODE FOR DESGIN</a>
+        <a className='links' target="_blank" href={projectDetails.repo.repo2}>SEE CODE FOR VISUALIZATION</a>
+      </div>
+    )
+  }
  
   return (
     <div className='projectDetails'>
@@ -15,13 +37,12 @@ const ProjectsSections = ({ projectDetails }) => {
       </div>
       <div className='part2'>
         <div className='img_box'>
-          <img className='img_project' src={ projectDetails.picture } />
+          <img className='img_project' src={ projectDetails.pictureColor } />
         </div>
         <div className='long_dec_box'>
           <p className='project_longDec'>{ projectDetails.longDeription} </p>
           <p className='project_longDec'>{ projectDetails.longDeription2 }</p>
-          <button>LIVE SITE</button>
-          <button>SEE THE CODE</button>
+          { target ? nsrdbTags() : linkTags() }
         </div>
         <br className='break'/>
       </div>
