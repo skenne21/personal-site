@@ -9,3 +9,9 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media screen and (max-width: 600px) {
+  .footer_image {
+    height: 200px;
+  }
+}

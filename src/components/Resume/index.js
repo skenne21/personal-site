@@ -11,7 +11,7 @@ const Resume = (props) => {
     <div className='Resume'>
       <NavBar history={ history } />
       <Header />
-      <button className='pdf_button'>VIEW PDF FORMAT</button>
+      <a href='https://www.turing.io/sites/default/files/resumes/Sabrina_Kennedy_resume.pdf' target='_blank' className='pdf_button'>VIEW PDF FORMAT</a>
       <section>
         <h3>TECHNOLOGIES</h3>
          <ul className='skills-list'>

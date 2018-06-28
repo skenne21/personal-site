@@ -26,16 +26,19 @@ const NavBar = ({ history }) => {
     return (
       <div>
         <Link 
+          activeClassName="active"
           className="nav_link"
           to="/about"
         >ABOUT
         </Link>
         <Link
+          activeClassName="active"
           className="nav_link"
           to="/resume"
         >RESUME
         </Link>
         <Link
+          activeClassName="active"
           className="nav_link"
           to="portfolio"
         >PORTFOLIO
@@ -47,22 +50,26 @@ const NavBar = ({ history }) => {
   const returnHomepage = (pathname) => {
     return (
       <div>
-        <Link 
+        <Link
+          activeClassName="active" 
           className='nav_link'
           to='/'
         >HOME
         </Link>
         <Link 
+          activeClassName="active"
           className='nav_link'
           to='/about'
         >ABOUT
         </Link>
         <Link
+          activeClassName="active"
           className='nav_link'
           to='/resume'
         >RESUME
         </Link>
         <Link
+          activeClassName="active"
           className='nav_link'
           to='/portfolio'
         >PORTFOLIO

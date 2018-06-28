@@ -33,3 +33,19 @@
   display: block;
 }
 
+@media screen and (max-width: 950px) {
+  .Skills h3 {
+    width: 70%;
+  }
+
+  .Skills li {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FE-skills,
+  .BE-skills {
+    width: 80%;
+  }
+}
