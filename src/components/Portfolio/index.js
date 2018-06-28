@@ -1,27 +1,36 @@
 import React from 'react';
-import Project from '../Project';
-import { projects }from '../../data/projects.js';
+import Header from '../Header';
+import NavBar from '../Nav';
+import Footer from '../Footer';
+import ProjectsSections from '../ProjectsSections';
+import { projects } from '../../data/projects.js';
 import './styles.css';
 
-const Portfolio = () => {
+const Portfolio = (props) => {
+  const { history } = props;
+
   const createProjects = () => {
-    return projects.map(( project, index ) => {
+    return projects.map((project, index) => {
       return (
-        <Project 
-          key={ index } 
-          project={ project }
-        />
-      );
-    });
+        <ProjectsSections 
+          key={index}
+          className='ProjectsSections'
+          projectDetails={ project } 
+        > 
+        </ProjectsSections>
+      )
+    })
   }
 
-  return(
-    <section className='Portfolio' id='Portfolio'>
-      <h2>PORTFOLIO</h2>
-      <div className='container'>
-       { createProjects() }
-      </div>
-    </section>
+  return (
+    <div className='Portfolio'>
+      <NavBar history={ history } />
+      <Header />
+      <section>
+        { createProjects() }
+      </section>
+      <Footer />
+    </div>
   )
 }
 

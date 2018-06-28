@@ -1,0 +1,17 @@
+.container {
+  margin: auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.ProjectContainer {
+  padding-bottom: 5em;
+}
+
+
+.container p {
+  width: 95%;
+  margin: 20px auto;
+  text-align: left;
+}

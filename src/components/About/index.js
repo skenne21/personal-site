@@ -4,13 +4,12 @@ import Footer from '../Footer/';
 import Nav from '../Nav/';
 import './styles.css';
 import { Link } from 'react-router-dom';
-import image1 from '../../assest/moutian.jpg';
+import image1 from '../../assest/morefall.jpg';
 import image2 from '../../assest/tree.JPG';
 import image3 from '../../assest/snowMout.JPG';
-import image4 from '../../assest/fall.jpg';
+import image4 from '../../assest/bestfall.jpg';
 import image5 from '../../assest/utah.jpeg';
 import image6 from '../../assest/snowmout2.JPG';
-
 
 const About = (props) => {
   const { history } = props
