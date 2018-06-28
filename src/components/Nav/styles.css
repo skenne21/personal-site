@@ -15,3 +15,9 @@ ul {
   margin: 7px 12px;
 }
 
+@media screen and (max-width: 440px) {
+  .NavBar ul{
+    font-size: 1em;
+  }
+}
+
